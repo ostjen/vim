@@ -23,3 +23,5 @@ noremap <silent> ,cu :<C-B>silent <C-E>s/^\V<C-R>=escape(b:comment_leader,'\/')<
 "remap esc to jk
 inoremap jk <esc>  
 
+set directory=$HOME/.vim/tmp//,.  " Keep swap files in one location
+
